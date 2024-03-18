@@ -25,7 +25,7 @@ public class Calculator extends HttpServlet {
 
     private Connection getDBConnection() throws SQLException {
         // Update with your database connection details
-        String jdbcUrl = "jdbc:mysql://192.168.75.158:3306/mydb";
+        String jdbcUrl = "jdbc:mysql://192.168.75.160:3306/mydb";
         String jdbcUser = "mysql";
         String jdbcPassword = "mysql@123";
 
